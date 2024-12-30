@@ -1,4 +1,3 @@
-import React from 'react';
 import { BiSolidCategory } from "react-icons/bi";
 import { CardCategories } from '../data/data';
 import Fade from 'react-reveal';

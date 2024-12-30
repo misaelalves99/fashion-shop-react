@@ -1,4 +1,3 @@
-import React from 'react';
 import { SelectCategories } from '../data/data';
 
 const CategoryFilter = ({ selectedCategory, handleChange }) => {
@@ -24,4 +23,3 @@ const CategoryFilter = ({ selectedCategory, handleChange }) => {
   };
   
 export default CategoryFilter;
-  

@@ -1,4 +1,3 @@
-import React from 'react';
 import { CardProducts } from '../../src/data/data';
 import Fade from 'react-reveal';
 import Card from './Card';

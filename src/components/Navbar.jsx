@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 import { FaShopify } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
@@ -8,6 +9,7 @@ import { BsCart4 } from "react-icons/bs";
 export default function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
+    const { cartItems } = useCart();
 
     return (
         <section>
@@ -75,7 +77,7 @@ export default function Navbar() {
             </div>
             <hr className='bg-red-500 w-full h-2'/>
             <div className='w-full bg-cyan-500'>
-                <div className='max-xl:max-w-5xl max-lg:max-w-3xl max-md:max-w-xl max-w-7xl flex justify-between w-full h-10 items-center m-auto pt-4 pb-4 pl-10 pr-10'>
+                <div className='max-xl:max-w-5xl max-lg:max-w-3xl max-md:max-w-xl max-w-7xl flex justify-between w-full h-10 items-center m-auto pt-8 pb-8 pl-10 pr-10'>
                     <div>
                         <MdDarkMode className='text-3xl cursor-pointer hover:text-red-500'/>
                     </div>
@@ -84,7 +86,14 @@ export default function Navbar() {
                         <Link to="/login">
                             <h1 className='text-xs pl-4 pr-4 cursor-pointer hover:text-red-800'>Entre ou <br />cadastre-se</h1>
                         </Link>
-                        <BsCart4 className='text-3xl cursor-pointer hover:text-red-500'/>
+                        <Link to="/cart" className="relative">
+                            <BsCart4 className="text-3xl cursor-pointer hover:text-red-500" />
+                            {cartItems.length > 0 && (
+                                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                                    {cartItems.length}
+                                </span>
+                            )}
+                        </Link>
                     </div>
                 </div>
             </div>

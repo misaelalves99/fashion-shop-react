@@ -1,4 +1,3 @@
-import React from "react";
 import Fade from 'react-reveal';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
