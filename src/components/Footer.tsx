@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
           <p>
             Desenvolvido por{' '}
             <a
-              href="https://misael-alves-portfolio.vercel.app/"
+              href="https://misael-alves-portfolio-next.vercel.app/"
               target="_blank"
               className="underline hover:text-cyan-400 transition-colors duration-300"
               rel="noopener noreferrer"
