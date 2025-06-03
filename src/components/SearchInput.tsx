@@ -1,3 +1,5 @@
+// src/components/SearchInput.tsx
+
 import React, { useState, useMemo, ChangeEvent } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import { motion } from 'framer-motion';

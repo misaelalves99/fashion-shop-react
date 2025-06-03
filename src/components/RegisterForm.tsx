@@ -1,3 +1,5 @@
+// src/components/RegisterForm.tsx
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaUserPlus } from 'react-icons/fa';

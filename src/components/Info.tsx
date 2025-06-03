@@ -1,3 +1,5 @@
+// src/components/Info.tsx
+
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { getInfo } from '../api/info';

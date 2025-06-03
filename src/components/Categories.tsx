@@ -1,3 +1,5 @@
+// src/components/Categories.tsx
+
 'use client';
 
 import { GiShorts, GiArmoredPants, GiSkirt, GiConverseShoe, GiDress } from 'react-icons/gi';

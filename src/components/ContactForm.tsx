@@ -1,9 +1,10 @@
+// src/components/ContactForm.tsx
+
 import React, { FormEvent } from 'react';
 
 const ContactForm: React.FC = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Aqui você pode implementar a lógica para envio do formulário
     console.log('Formulário enviado!');
   };
 

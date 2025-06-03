@@ -1,3 +1,5 @@
+// src/components/ProductCard.tsx
+
 import React from 'react';
 import { useCart } from '../hooks/useCart';
 import type { ProductCardProps } from '../types/product';
@@ -8,7 +10,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
   const handleAddToCart = () => {
     addToCart(product);
-    // Redirecionamento removido conforme solicitado
   };
 
   return (

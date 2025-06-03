@@ -1,3 +1,5 @@
+// src/components/CategoryFilter.tsx
+
 import React from 'react';
 import { BiSolidCategory } from 'react-icons/bi';
 import { GiShorts, GiArmoredPants, GiSkirt, GiConverseShoe, GiDress, } from 'react-icons/gi';

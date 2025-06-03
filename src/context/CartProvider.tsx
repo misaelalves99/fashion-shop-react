@@ -1,3 +1,5 @@
+// src/context/CartProvider.tsx
+
 import React, { useState, ReactNode } from 'react';
 import { CartContext } from './CartContext';
 import { Product } from '../types/product';

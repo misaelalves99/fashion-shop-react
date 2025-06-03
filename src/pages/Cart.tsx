@@ -1,3 +1,5 @@
+// src/pages/Cart.tsx
+
 import React from 'react';
 import Cart from '../components/Cart';
 

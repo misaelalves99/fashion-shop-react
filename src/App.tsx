@@ -5,13 +5,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { CartProvider } from './context/CartProvider';
 import './index.css';
-
-// Importar as páginas
 import HomePage from './pages/Home';
 import ProductsPage from './pages/Products';
 import ContactPage from './pages/Contact';
 import CartPage from './pages/Cart';
 import LoginPage from './pages/Login';
+import RegisterPage from './pages/Register';
 
 function App() {
   return (
@@ -26,6 +25,7 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
             </Routes>
           </main>
           <Footer />

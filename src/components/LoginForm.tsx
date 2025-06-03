@@ -1,3 +1,5 @@
+// src/components/LoginForm.tsx
+
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaSignInAlt } from 'react-icons/fa';

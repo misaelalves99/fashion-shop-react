@@ -1,3 +1,5 @@
+// src/pages/Products.tsx
+
 import React, { useState, ChangeEvent } from 'react';
 import { motion } from 'framer-motion';
 import SearchInput from '../components/SearchInput';

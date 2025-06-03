@@ -1,10 +1,12 @@
+// src/components/Navbar.tsx
+
 import { useState } from 'react';
-import { Link } from 'react-router-dom'; // React Router para links SPA
+import { Link } from 'react-router-dom';
 import { FaShopify } from 'react-icons/fa';
 import { MdDarkMode } from 'react-icons/md';
 import { FaRegUser } from 'react-icons/fa6';
 import { BsCart4 } from 'react-icons/bs';
-import { useCart } from '../hooks/useCart'; // ajuste o caminho conforme seu projeto
+import { useCart } from '../hooks/useCart';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

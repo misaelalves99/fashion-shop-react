@@ -1,3 +1,5 @@
+// src/components/Cart.tsx
+
 import React from 'react';
 import { useCart } from '../hooks/useCart';
 import type { Product } from '../types/product';

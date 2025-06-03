@@ -1,10 +1,6 @@
-import { createContext } from 'react';
-import { Product } from '../types/product';
+// src/context/CartContext.tsx
 
-interface CartContextType {
-  cartItems: Product[];
-  addToCart: (product: Product) => void;
-  removeFromCart: (productId: string | number) => void;
-}
+import { createContext } from 'react';
+import { CartContextType } from '../types/cart';
 
 export const CartContext = createContext<CartContextType | undefined>(undefined);
