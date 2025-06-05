@@ -1,20 +1,18 @@
 // src/components/ProductCard.tsx
 
 import React from 'react';
-import { useCart } from '../hooks/useCart';
 import type { ProductCardProps } from '../types/product';
-import { PiShoppingCartSimpleBold } from 'react-icons/pi';
+import AddToCartButton from './CartButton';
+import AddToFavoritesButton from './FavoritesButton';
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-  const { addToCart } = useCart();
-
-  const handleAddToCart = () => {
-    addToCart(product);
-  };
-
   return (
     <div className="group relative transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
-      <div className="w-full p-4">
+      <div className="w-full p-4 relative">
+
+        {/* Botão de favoritos */}
+        <AddToFavoritesButton product={product} />
+
         {/* Imagem do produto */}
         <div className="w-full overflow-hidden rounded-xl">
           <img
@@ -39,23 +37,23 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Preço antigo e desconto */}
         <div className="flex justify-between items-center text-sm text-gray-500 mt-3">
           <span className="line-through">
-            {product.priceOld.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+            {product.priceOld.toLocaleString('pt-BR', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
           </span>
           <span className="text-green-600 font-medium">{product.discount}</span>
         </div>
 
-        {/* Preço atual e botão */}
+        {/* Preço atual e botão de adicionar ao carrinho */}
         <div className="mt-4 flex justify-between items-center bg-cyan-500 px-4 py-2 rounded-lg">
           <span className="text-white font-bold text-lg">
-            {product.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+            {product.price.toLocaleString('pt-BR', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
           </span>
-          <button
-            onClick={handleAddToCart}
-            className="bg-white text-cyan-600 hover:bg-cyan-100 p-2 rounded-full transition duration-300 cursor-pointer"
-            title="Adicionar ao carrinho"
-          >
-            <PiShoppingCartSimpleBold className="text-xl" />
-          </button>
+          <AddToCartButton product={product} />
         </div>
       </div>
     </div>

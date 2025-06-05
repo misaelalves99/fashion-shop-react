@@ -2,15 +2,16 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaShopify } from 'react-icons/fa';
-import { MdDarkMode } from 'react-icons/md';
+import { FaShopify, FaHeart } from 'react-icons/fa';
 import { FaRegUser } from 'react-icons/fa6';
 import { BsCart4 } from 'react-icons/bs';
 import { useCart } from '../hooks/useCart';
+import { useFavorites } from '../hooks/useFavorites';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { cartItems } = useCart();
+  const { favorites } = useFavorites();
 
   const menuItems = [
     { label: 'Home', href: '/' },
@@ -23,7 +24,6 @@ export default function Navbar() {
       {/* Top navbar */}
       <div className="w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 md:px-10">
-          {/* Logo */}
           <Link
             to="/"
             className="flex items-center gap-3 hover:opacity-90 transition-opacity duration-300"
@@ -32,7 +32,6 @@ export default function Navbar() {
             <h1 className="text-xl font-extrabold tracking-wide text-gray-900">Fashion Shop</h1>
           </Link>
 
-          {/* Desktop menu */}
           <nav className="hidden md:flex gap-10">
             {menuItems.map(({ label, href }) => (
               <Link
@@ -45,7 +44,6 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Mobile menu button */}
           <button
             aria-label="Toggle menu"
             onClick={() => setIsOpen(!isOpen)}
@@ -77,7 +75,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {isOpen && (
           <nav className="md:hidden bg-white border-t border-gray-200 shadow-md">
             <ul className="flex flex-col gap-5 px-6 py-5 text-gray-700 font-medium">
@@ -100,23 +97,7 @@ export default function Navbar() {
       {/* Bottom bar */}
       <div className="w-full bg-cyan-600">
         <div className="max-w-7xl mx-auto flex items-center justify-end gap-6 px-6 py-3 md:px-10">
-          <button
-            aria-label="Toggle dark mode"
-            className="text-3xl hover:text-cyan-300 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-300 rounded"
-          >
-            <MdDarkMode />
-          </button>
-
-          <Link
-            to="/login"
-            className="flex items-center gap-2 text-sm font-semibold text-white hover:text-cyan-300 transition-colors duration-300 whitespace-nowrap"
-          >
-            <FaRegUser className="text-xl" />
-            <span>
-              Entre ou <br /> cadastre-se
-            </span>
-          </Link>
-
+          {/* Carrinho */}
           <Link
             to="/cart"
             className="relative text-white hover:text-cyan-300 transition-colors duration-300"
@@ -127,6 +108,30 @@ export default function Navbar() {
                 {cartItems.length}
               </span>
             )}
+          </Link>
+
+          {/* Favoritos */}
+          <Link
+            to="/favorites"
+            className="relative text-white hover:text-cyan-300 transition-colors duration-300"
+          >
+            <FaHeart className="text-2xl cursor-pointer" />
+            {favorites.length > 0 && (
+              <span className="absolute -top-2 -right-2 bg-pink-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center shadow-md">
+                {favorites.length}
+              </span>
+            )}
+          </Link>
+
+          {/* Login */}
+          <Link
+            to="/login"
+            className="flex items-center gap-2 text-sm font-semibold text-white hover:text-cyan-300 transition-colors duration-300 whitespace-nowrap"
+          >
+            <FaRegUser className="text-xl" />
+            <span>
+              Entre ou <br /> cadastre-se
+            </span>
           </Link>
         </div>
       </div>
