@@ -8,7 +8,8 @@ import { FavoritesProvider } from './context/FavoritesProvider';
 import './index.css';
 
 import HomePage from './pages/Home';
-import ProductsPage from './pages/Products';
+import ProductsPage from './pages/products/index';
+import ProductDetailPage from './pages/products/[id]';
 import ContactPage from './pages/Contact';
 import CartPage from './pages/Cart';
 import LoginPage from './pages/Login';
@@ -26,6 +27,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/products" element={<ProductsPage />} />
+                <Route path="/products/:id" element={<ProductDetailPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/cart" element={<CartPage />} />
                 <Route path="/favorites" element={<FavoritesPage />} />

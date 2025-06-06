@@ -1,10 +1,10 @@
-// src/pages/Products.tsx
+// src/pages/products/index.tsx
 
 import React, { useState, ChangeEvent } from 'react';
 import { motion } from 'framer-motion';
-import SearchInput from '../components/SearchInput';
-import ProductList from '../components/ProductList';
-import CategoryFilter from '../components/CategoryFilter';
+import SearchInput from '../../components/SearchInput';
+import ProductList from '../../components/ProductList';
+import CategoryFilter from '../../components/CategoryFilter';
 
 const fadeInProps = {
   initial: { opacity: 0, y: 40 },

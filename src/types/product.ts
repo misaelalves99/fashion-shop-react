@@ -3,12 +3,13 @@
 export interface Product {
   id: number;
   img: string;
+  images: string[];
   title: string;
   name?: string;
   rating: string;
   priceOld: number;
   discount: string;
-  price: number; 
+  price: number;
   category: string;
 }
 

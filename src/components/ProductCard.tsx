@@ -1,6 +1,7 @@
 // src/components/ProductCard.tsx
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import type { ProductCardProps } from '../types/product';
 import AddToCartButton from './CartButton';
 import AddToFavoritesButton from './FavoritesButton';
@@ -13,21 +14,22 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Botão de favoritos */}
         <AddToFavoritesButton product={product} />
 
-        {/* Imagem do produto */}
-        <div className="w-full overflow-hidden rounded-xl">
-          <img
-            src={product.img}
-            alt={product.title}
-            width={500}
-            height={500}
-            className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        </div>
+        {/* Link para a página de detalhes */}
+        <Link to={`/products/${product.id}`}>
+          <div className="w-full overflow-hidden rounded-xl">
+            <img
+              src={product.img}
+              alt={product.title}
+              width={500}
+              height={500}
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+            />
+          </div>
 
-        {/* Título */}
-        <h2 className="mt-4 text-lg font-semibold text-center text-gray-800 line-clamp-2">
-          {product.title}
-        </h2>
+          <h2 className="mt-4 text-lg font-semibold text-center text-gray-800 line-clamp-2">
+            {product.title}
+          </h2>
+        </Link>
 
         {/* Avaliação */}
         <div className="text-center text-yellow-500 text-sm mt-1">

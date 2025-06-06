@@ -94,9 +94,13 @@ export const products: Product[] = [
     {
         id: 1,
         img: Bermuda1,
+        images: [
+            Bermuda1, 
+            Bermuda1
+        ],
         title: 'Bermuda',
         rating: '(1295)',
-        priceOld: 99.90,
+        priceOld: 99.9,
         discount: 'Desconto 23%',
         price: 69.99,
         category: 'Bermuda',
@@ -104,6 +108,10 @@ export const products: Product[] = [
     {
         id: 2,
         img: Bermuda2,
+        images: [
+            Bermuda2, 
+            Bermuda2
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 79.90,
@@ -114,6 +122,10 @@ export const products: Product[] = [
     {
         id: 3,
         img: Bermuda3,
+        images: [
+            Bermuda3, 
+            Bermuda3
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 79.90,
@@ -124,6 +136,10 @@ export const products: Product[] = [
     {
         id: 4,
         img: Bermuda4,
+        images: [
+            Bermuda4, 
+            Bermuda4
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 179.90,
@@ -134,6 +150,10 @@ export const products: Product[] = [
     {
         id: 5,
         img: Bermuda5,
+        images: [
+            Bermuda5, 
+            Bermuda5
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 99.90,
@@ -144,6 +164,10 @@ export const products: Product[] = [
     {
         id: 6,
         img: Bermuda6,
+        images: [
+            Bermuda6, 
+            Bermuda6
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 89.00,
@@ -154,6 +178,10 @@ export const products: Product[] = [
     {
         id: 7,
         img: Bermuda7,
+        images: [
+            Bermuda7, 
+            Bermuda7
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 99.90,
@@ -164,6 +192,10 @@ export const products: Product[] = [
     {
         id: 8,
         img: Bermuda8,
+        images: [
+            Bermuda8, 
+            Bermuda8
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 129.90,
@@ -174,6 +206,10 @@ export const products: Product[] = [
     {
         id: 9,
         img: Bermuda9,
+        images: [
+            Bermuda9, 
+            Bermuda9
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 89.90,
@@ -184,6 +220,10 @@ export const products: Product[] = [
     {
         id: 10,
         img: Bermuda10,
+        images: [
+            Bermuda10, 
+            Bermuda10
+        ],
         title: 'Bermuda',
         rating: '(1295)',
         priceOld: 69.90,
@@ -194,6 +234,10 @@ export const products: Product[] = [
     {
         id: 11,
         img: Biquini1,
+        images: [
+            Biquini1, 
+            Biquini1
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 119.99,
@@ -204,6 +248,10 @@ export const products: Product[] = [
     {
         id: 12,
         img: Biquini2,
+        images: [
+            Biquini2, 
+            Biquini2
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 109.90,
@@ -214,6 +262,10 @@ export const products: Product[] = [
     {
         id: 13,
         img: Biquini3,
+        images: [
+            Biquini3, 
+            Biquini3
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 79.90,
@@ -224,6 +276,10 @@ export const products: Product[] = [
     {
         id: 14,
         img: Biquini4,
+        images: [
+            Biquini4, 
+            Biquini4
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 149.90,
@@ -234,6 +290,10 @@ export const products: Product[] = [
     {
         id: 15,
         img: Biquini5,
+        images: [
+            Biquini5, 
+            Biquini5
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 179.90,
@@ -244,6 +304,10 @@ export const products: Product[] = [
     {
         id: 16,
         img: Biquini6,
+        images: [
+            Biquini6, 
+            Biquini6
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 159.99,
@@ -254,6 +318,10 @@ export const products: Product[] = [
     {
         id: 17,
         img: Biquini7,
+        images: [
+            Biquini7, 
+            Biquini7
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 129.99,
@@ -264,6 +332,10 @@ export const products: Product[] = [
     {
         id: 18,
         img: Biquini8,
+        images: [
+            Biquini8, 
+            Biquini8
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 129.90,
@@ -274,6 +346,10 @@ export const products: Product[] = [
     {
         id: 19,
         img: Biquini9,
+        images: [
+            Biquini9, 
+            Biquini9
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 169.90,
@@ -284,6 +360,10 @@ export const products: Product[] = [
     {
     id: 20,
         img: Biquini10,
+        images: [
+            Biquini10, 
+            Biquini10
+        ],
         title: 'Biquini',
         rating: '(1295)',
         priceOld: 89.90,
@@ -294,6 +374,10 @@ export const products: Product[] = [
     {
         id: 21,
         img: Calca1,
+        images: [
+            Calca1, 
+            Calca1
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 99.90,
@@ -304,6 +388,10 @@ export const products: Product[] = [
     {
         id: 22,
         img: Calca2,
+        images: [
+            Calca2, 
+            Calca2,
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 119.90,
@@ -314,6 +402,10 @@ export const products: Product[] = [
     {
         id: 23,
         img: Calca3,
+        images: [
+            Calca3, 
+            Calca3
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 139.99,
@@ -324,6 +416,10 @@ export const products: Product[] = [
     {
         id: 24,
         img: Calca4,
+        images: [
+            Calca4, 
+            Calca4
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 159.90,
@@ -334,6 +430,10 @@ export const products: Product[] = [
     {
         id: 25,
         img: Calca5,
+        images: [
+            Calca5, 
+            Calca5
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 189.90,
@@ -344,6 +444,10 @@ export const products: Product[] = [
     {
         id: 26,
         img: Calca6,
+        images: [
+            Calca6, 
+            Calca6
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 99.90,
@@ -354,6 +458,10 @@ export const products: Product[] = [
     {
         id: 27,
         img: Calca7,
+        images: [
+            Calca7, 
+            Calca7
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 159.90,
@@ -364,6 +472,10 @@ export const products: Product[] = [
     {
         id: 28,
         img: Calca8,
+        images: [
+            Calca8, 
+            Calca8
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 169.99,
@@ -374,6 +486,10 @@ export const products: Product[] = [
     {
         id: 29,
         img: Calca9,
+        images: [
+            Calca9, 
+            Calca9
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 99.90,
@@ -384,6 +500,10 @@ export const products: Product[] = [
     {
         id: 30,
         img: Calca10,
+        images: [
+            Calca10, 
+            Calca10
+        ],
         title: 'Calça',
         rating: '(1295)',
         priceOld: 139.90,
@@ -394,6 +514,10 @@ export const products: Product[] = [
     {
         id: 31,
         img: Camiseta1,
+        images: [
+            Camiseta1, 
+            Camiseta1
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 59.90,
@@ -404,6 +528,10 @@ export const products: Product[] = [
     {
         id: 32,
         img: Camiseta2,
+        images: [
+            Camiseta2, 
+            Camiseta2
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 69.99,
@@ -414,6 +542,10 @@ export const products: Product[] = [
     {
         id: 33,
         img: Camiseta3,
+        images: [
+            Camiseta3, 
+            Camiseta3
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 169.90,
@@ -424,6 +556,10 @@ export const products: Product[] = [
     {
         id: 34,
         img: Camiseta4,
+        images: [
+            Camiseta4, 
+            Camiseta4
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 79.90,
@@ -434,6 +570,10 @@ export const products: Product[] = [
     {
         id: 35,
         img: Camiseta5,
+        images: [
+            Camiseta5, 
+            Camiseta5
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 39.90,
@@ -444,6 +584,10 @@ export const products: Product[] = [
     {
         id: 36,
         img: Camiseta6,
+        images: [
+            Camiseta6, 
+            Camiseta6
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 89.99,
@@ -454,6 +598,10 @@ export const products: Product[] = [
     {
         id: 37,
         img: Camiseta7,
+        images: [
+            Camiseta7, 
+            Camiseta7
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 57.90,
@@ -464,6 +612,10 @@ export const products: Product[] = [
     {
         id: 38,
         img: Camiseta8,
+        images: [
+            Camiseta8, 
+            Camiseta8
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 69.99,
@@ -474,6 +626,10 @@ export const products: Product[] = [
     {
         id: 39,
         img: Camiseta9,
+        images: [
+            Camiseta9, 
+            Camiseta9
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 109.90,
@@ -484,6 +640,10 @@ export const products: Product[] = [
     {
         id: 40,
         img: Camiseta10,
+        images: [
+            Camiseta10, 
+            Camiseta10
+        ],
         title: 'Camiseta',
         rating: '(1295)',
         priceOld: 119.90,
@@ -494,6 +654,10 @@ export const products: Product[] = [
     {
         id: 41,
         img: Jaqueta1,
+        images: [
+            Jaqueta1, 
+            Jaqueta1
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 209.90,
@@ -504,6 +668,10 @@ export const products: Product[] = [
     {
         id: 42,
         img: Jaqueta2,
+        images: [
+            Jaqueta2, 
+            Jaqueta2
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 499.90,
@@ -514,6 +682,10 @@ export const products: Product[] = [
     {
         id: 43,
         img: Jaqueta3,
+        images: [
+            Jaqueta3, 
+            Jaqueta3
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 449.99,
@@ -524,6 +696,10 @@ export const products: Product[] = [
     {
         id: 44,
         img: Jaqueta4,
+        images: [
+            Jaqueta4, 
+            Jaqueta4
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 199.90,
@@ -534,6 +710,10 @@ export const products: Product[] = [
     {
         id: 45,
         img: Jaqueta5,
+        images: [
+            Jaqueta5, 
+            Jaqueta5
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 459.90,
@@ -544,6 +724,10 @@ export const products: Product[] = [
     {
         id: 46,
         img: Jaqueta6,
+        images: [
+            Jaqueta6, 
+            Jaqueta6
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 399.99,
@@ -554,6 +738,10 @@ export const products: Product[] = [
     {
         id: 47,
         img: Jaqueta7,
+        images: [
+            Jaqueta7, 
+            Jaqueta7
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 229.90,
@@ -564,6 +752,10 @@ export const products: Product[] = [
     {
         id: 48,
         img: Jaqueta8,
+        images: [
+            Jaqueta8, 
+            Jaqueta8
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 139.90,
@@ -574,6 +766,10 @@ export const products: Product[] = [
     {
         id: 49,
         img: Jaqueta9,
+        images: [
+            Jaqueta9, 
+            Jaqueta9
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 399.90,
@@ -584,6 +780,10 @@ export const products: Product[] = [
     {
         id: 50,
         img: Jaqueta10,
+        images: [
+            Jaqueta10, 
+            Jaqueta10
+        ],
         title: 'Jaqueta',
         rating: '(1295)',
         priceOld: 379.99,
@@ -595,6 +795,10 @@ export const products: Product[] = [
     {
         id: 51,
         img: Saia1,
+        images: [
+            Saia1, 
+            Saia1
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 69.99,
@@ -605,6 +809,10 @@ export const products: Product[] = [
     {
         id: 52,
         img: Saia2,
+        images: [
+            Saia2, 
+            Saia2
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 69.99,
@@ -615,6 +823,10 @@ export const products: Product[] = [
     {
         id: 53,
         img: Saia3,
+        images: [
+            Saia3, 
+            Saia3
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 59.90,
@@ -625,6 +837,10 @@ export const products: Product[] = [
     {
         id: 54,
         img: Saia4,
+        images: [
+            Saia4, 
+            Saia4
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 59.90,
@@ -635,6 +851,10 @@ export const products: Product[] = [
     {
         id: 55,
         img: Saia5,
+        images: [
+            Saia5, 
+            Saia5
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 99.90,
@@ -645,6 +865,10 @@ export const products: Product[] = [
     {
         id: 56,
         img: Saia6,
+        images: [
+            Saia6, 
+            Saia6
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 89.99,
@@ -655,6 +879,10 @@ export const products: Product[] = [
     {
         id: 57,
         img: Saia7,
+        images: [
+            Saia7, 
+            Saia7
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 139.90,
@@ -665,6 +893,10 @@ export const products: Product[] = [
     {
         id: 58,
         img: Saia8,
+        images: [
+            Saia8, 
+            Saia8
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 159.90,
@@ -675,6 +907,10 @@ export const products: Product[] = [
     {
         id: 59,
         img: Saia9,
+        images: [
+            Saia9, 
+            Saia9
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 119.99,
@@ -685,6 +921,10 @@ export const products: Product[] = [
     {
         id: 60,
         img: Saia10,
+        images: [
+            Saia10, 
+            Saia10
+        ],
         title: 'Saia',
         rating: '(1295)',
         priceOld: 99.90,
@@ -695,6 +935,10 @@ export const products: Product[] = [
     {
         id: 61,
         img: Sapato1,
+        images: [
+            Sapato1, 
+            Sapato1
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 199.90,
@@ -705,6 +949,10 @@ export const products: Product[] = [
     {
         id: 62,
         img: Sapato2,
+        images: [
+            Sapato2, 
+            Sapato2
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 139.90,
@@ -715,6 +963,10 @@ export const products: Product[] = [
     {
         id: 63,
         img: Sapato3,
+        images: [
+            Sapato3, 
+            Sapato3
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 159.90,
@@ -725,6 +977,10 @@ export const products: Product[] = [
     {
         id: 64,
         img: Sapato4,
+        images: [
+            Sapato4, 
+            Sapato4
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 169.90,
@@ -735,6 +991,10 @@ export const products: Product[] = [
     {
         id: 65,
         img: Sapato5,
+        images: [
+            Sapato5, 
+            Sapato5
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 269.99,
@@ -745,6 +1005,10 @@ export const products: Product[] = [
     {
         id: 66,
         img: Sapato6,
+        images: [
+            Sapato6, 
+            Sapato6
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 399.90,
@@ -755,6 +1019,10 @@ export const products: Product[] = [
     {
         id: 67,
         img: Sapato7,
+        images: [
+            Sapato7, 
+            Sapato7
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 229.99,
@@ -765,6 +1033,10 @@ export const products: Product[] = [
     {
         id: 68,
         img: Sapato8,
+        images: [
+            Sapato8, 
+            Sapato8
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 129.90,
@@ -775,6 +1047,10 @@ export const products: Product[] = [
     {
         id: 69,
         img: Sapato9,
+        images: [
+            Sapato9, 
+            Sapato9
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 159.90,
@@ -785,6 +1061,10 @@ export const products: Product[] = [
     {
         id: 70,
         img: Sapato10,
+        images: [
+            Sapato10, 
+            Sapato10
+        ],
         title: 'Sapato',
         rating: '(1295)',
         priceOld: 179.90,
@@ -795,6 +1075,10 @@ export const products: Product[] = [
     {
         id: 71,
         img: Vestido1,
+        images: [
+            Vestido1, 
+            Vestido1
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 199.99,
@@ -805,6 +1089,10 @@ export const products: Product[] = [
     {
         id: 72,
         img: Vestido2,
+        images: [
+            Vestido2, 
+            Vestido2
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 399.99,
@@ -815,6 +1103,10 @@ export const products: Product[] = [
     {
         id: 73,
         img: Vestido3,
+        images: [
+            Vestido3, 
+            Vestido3
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 179.90,
@@ -825,6 +1117,10 @@ export const products: Product[] = [
     {
         id: 74,
         img: Vestido4,
+        images: [
+            Vestido4, 
+            Vestido4
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 299.90,
@@ -835,6 +1131,10 @@ export const products: Product[] = [
     {
         id: 75,
         img: Vestido5,
+        images: [
+            Vestido5, 
+            Vestido5
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 139.90,
@@ -845,6 +1145,10 @@ export const products: Product[] = [
     {
         id: 76,
         img: Vestido6,
+        images: [
+            Vestido6, 
+            Vestido6
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 139.90,
@@ -855,6 +1159,10 @@ export const products: Product[] = [
     {
         id: 77,
         img: Vestido7,
+        images: [
+            Vestido7, 
+            Vestido7
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 189.90,
@@ -865,6 +1173,10 @@ export const products: Product[] = [
     {
         id: 78,
         img: Vestido8,
+        images: [
+            Vestido8, 
+            Vestido8
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 699.90,
@@ -875,6 +1187,10 @@ export const products: Product[] = [
     {
         id: 79,
         img: Vestido9,
+        images: [
+            Vestido9, 
+            Vestido9
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 229.90,
@@ -885,6 +1201,10 @@ export const products: Product[] = [
     {
         id: 80,
         img: Vestido10,
+        images: [
+            Vestido10, 
+            Vestido10
+        ],
         title: 'Vestido',
         rating: '(1295)',
         priceOld: 599.90,
